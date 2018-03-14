@@ -10,7 +10,7 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">YRGO</a>
           <ul class="navbar-nav">
           <?php
@@ -23,4 +23,5 @@
             <?php endforeach; ?>
           </ul>
         </nav>
-        <div class="container">
+        <div class="container mt-5">
+            <h1 class="mb-5"><?php the_title(); ?></h1>
